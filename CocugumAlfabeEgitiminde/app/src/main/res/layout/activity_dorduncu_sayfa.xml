@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@mipmap/geceiki"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context="com.atakanylmz1.cocugumalfabeegitiminde.dorduncu_sayfa"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/dorduncu_reklam"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:orientation="vertical"></LinearLayout>
+
+            <ImageButton
+                android:id="@+id/homedort_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sayfa_degis"
+                android:layout_weight="4"
+                android:background="@mipmap/home"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ordek_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/ordek"/>
+
+            <ImageButton
+                android:id="@+id/oo_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/oo"/>
+
+            <ImageButton
+                android:id="@+id/onluk_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/onluk"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/pasta_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/pasta" />
+
+            <ImageButton
+                android:id="@+id/p_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/p"/>
+
+            <ImageButton
+                android:id="@+id/panda_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/panda"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/robot_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/robot"/>
+
+            <ImageButton
+                android:id="@+id/r_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/r"/>
+
+            <ImageButton
+                android:id="@+id/roket_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/roket"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/saat_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/saat"/>
+
+            <ImageButton
+                android:id="@+id/s_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/s"/>
+
+            <ImageButton
+                android:id="@+id/sincap_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/sincap"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ssapka_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/ssapka"/>
+
+            <ImageButton
+                android:id="@+id/ss_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/ss"/>
+
+            <ImageButton
+                android:id="@+id/ssemsiye_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/ssemsiye"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/tavsan_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/tavsan"/>
+
+            <ImageButton
+                android:id="@+id/t_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/t"/>
+
+            <ImageButton
+                android:id="@+id/tavuk_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:onClick="sescal"
+                android:layout_weight="1"
+                android:background="@mipmap/tavuk"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/dorttenuce_btn"
+                android:onClick="sayfa_degis"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@mipmap/left"/>
+
+            <ImageButton
+                android:id="@+id/dorttenbese_btn"
+                android:onClick="sayfa_degis"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@mipmap/right"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="5dp"
+    android:layout_centerHorizontal="true"
+    android:background="@mipmap/eflatun"
+    android:layout_centerVertical="true"
+    tools:context="com.atakanylmz1.cocugumalfabeegitiminde.harfler_uc"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/a3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/a"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/f3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/f"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/j3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/j"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/oo3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/oo"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/u3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/u"
+                android:onClick="kontrolEt3" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/b3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/b"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/g3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/g"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/k3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/k"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/p3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/p"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/uu3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/uu"
+                android:onClick="kontrolEt3" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/c3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/c"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/gg3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/gg"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/l3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/l"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/r3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/r"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/v3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/v"
+                android:onClick="kontrolEt3" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/cc3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/cc"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/h3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/h"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/m3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/m"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/s3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/s"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/y3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/y"
+                android:onClick="kontrolEt3" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/d3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/d"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/ii3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/ii"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/n3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/n"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/ss3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/ss"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/z3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/z"
+                android:onClick="kontrolEt3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/e3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/e"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/i3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/i"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/o3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/o"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/t3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/t"
+                android:onClick="kontrolEt3" />
+
+            <ImageButton
+                android:id="@+id/homeHarfler3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/home_harf"
+                android:onClick="sayfa_degis3" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
